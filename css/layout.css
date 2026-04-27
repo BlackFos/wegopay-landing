@@ -220,3 +220,4 @@
 /* 주의: floating bar 스타일은 sections.css (.floating 계열)에서 단일 관리.
    layout.css의 구형 #floating-bar 블록은 2026-04-27 제거됨 (specificity 충돌 해소).
    이전 코드 → _archive/css/style.css 참고 */
+

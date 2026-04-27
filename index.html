@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>위고페이 — 신용카드 한도를 현금으로</title>
+  <meta name="description" content="신용카드 현금화 전문 — 업계 최저 수수료 · 빠른 입금 · 365일 24시간 상담. 위고페이에서 안전하게 이용하세요.">
+  <meta name="keywords" content="위고페이,신용카드현금화,카드현금화,현금화서비스,업계최저수수료,빠른입금,24시간상담">
+  <meta name="theme-color" content="#4DA3FF">
+  <meta property="og:title" content="위고페이 — 신용카드 한도를 현금으로">
+  <meta property="og:description" content="신용카드 현금화 전문. 업계 최저 수수료, 평균 5분 이내 처리.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wegopay.kr">
+  <meta property="og:image" content="assets/logo/wegopay-og-image.png">
+  <link rel="icon" type="image/png" href="assets/logo/wegopay-app-icon-v2.png">
+  <link rel="apple-touch-icon" href="assets/logo/wegopay-app-icon-v2.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets (5-file architecture) -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="assets/logo/wegopay-logo-horizontal.png" alt="위고페이" class="header__logo-img">
+      </a>
+
+      <!-- 데스크톱 메뉴 -->
+      <nav class="header__nav" id="header-nav">
+        <ul class="header__nav-list">
+          <li><a href="index.html" class="header__nav-link active">서비스 소개</a></li>
+          <li><a href="product.html" class="header__nav-link">상품 소개</a></li>
+          <li><a href="request.html" class="header__nav-link">문의 방법</a></li>
+          <li><a href="faq.html" class="header__nav-link">FAQ</a></li>
+          <li><a href="review.html" class="header__nav-link">실제 후기</a></li>
+        </ul>
+      </nav>
+
+      <!-- 모바일 버튼 -->
+      <div class="header__mobile-buttons">
+        <a href="#" data-cta="kakao" class="header__mobile-cta" id="cta-header-kakao" target="_blank" rel="noopener">
+          1초만에 문의하기
+        </a>
+        <button class="header__menu-btn" id="menu-toggle" aria-label="메뉴 열기">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- 모바일 풀스크린 메뉴 -->
+    <nav class="header__mobile-nav" id="mobile-nav">
+      <button class="header__close-btn" id="menu-close" aria-label="메뉴 닫기">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul class="header__mobile-list">
+        <li><a href="index.html">서비스 소개</a></li>
+        <li><a href="product.html">상품 소개</a></li>
+        <li><a href="request.html">문의 방법</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="review.html">실제 후기</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════
+       [HERO:START — 🔒 LOCKED v1.0 | 2026-04-27]
+       의존: sections.css(hero), components.css(phone-mockup/chat), main.js(initChatAnimation)
+       에셋: hero-bg-v2.png, service-hero-card-clean.png, wegopay-kakao-profile.png, kakao-icon.svg
+       스냅샷: 4_운영/snapshots/hero_v1.0_locked.md
+       ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <img src="assets/hero/hero-bg-v2.png" alt="" class="hero__bg-img" aria-hidden="true">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="hero__badge">✦ 정식등록업체 · 365일 24시간 상담</span>
+        <h1 class="hero__title">신용카드 한도를<br><span class="hero__title-accent">현금으로</span></h1>
+        <p class="hero__subtitle">업계 최저 수수료 · 평균 5분 처리 · SGI 보증보험 가입</p>
+        <div class="hero__cta-group">
+          <a href="#" data-cta="kakao" target="_blank" rel="noopener" class="btn btn--kakao btn--lg" id="hero-kakao-cta">
+            <img src="assets/icons/kakao-icon.svg" alt="" class="btn__icon-img" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"><i class="fas fa-comment" style="display:none"></i> 카카오톡 상담하기
+          </a>
+          <a href="#" data-cta="phone" class="btn btn--outline btn--lg" id="hero-phone-cta">
+            <i class="fas fa-phone-alt"></i> 전화 상담
+          </a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <img src="assets/cards/service-hero-card-clean.png" alt="위고페이 카드→현금" class="hero__visual-main">
+        <!-- 채팅 애니메이션 폰 목업 -->
+        <div class="phone-mockup hero__visual-phone">
+          <div class="phone-mockup__notch"></div>
+          <div class="phone-mockup__header">
+            <img src="assets/logo/wegopay-kakao-profile.png" alt="" class="phone-mockup__avatar">
+            <span class="phone-mockup__name">위고페이</span>
+            <span class="phone-mockup__status">● 상담 가능</span>
+          </div>
+          <div class="phone-mockup__chat" id="chat-area"></div>
+          <div class="phone-mockup__input">메시지를 입력하세요…</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 퀵 네비게이션 바 -->
+    <div class="hero__quicknav">
+      <div class="container hero__quicknav-inner">
+        <a href="product.html" class="hero__quicknav-item">
+          <i class="fas fa-book-open"></i>
+          <span class="hero__quicknav-label">이용방법</span>
+        </a>
+        <a href="review.html" class="hero__quicknav-item">
+          <i class="fas fa-star"></i>
+          <span class="hero__quicknav-label">고객후기</span>
+        </a>
+        <a href="faq.html" class="hero__quicknav-item">
+          <i class="fas fa-clipboard-list"></i>
+          <span class="hero__quicknav-label">FAQ</span>
+        </a>
+        <a href="#" data-cta="kakao" target="_blank" rel="noopener" class="hero__quicknav-item hero__quicknav-item--kakao">
+          <i class="fas fa-comment-dots"></i>
+          <span class="hero__quicknav-label">실시간문의</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 통계 바 -->
+    <div class="hero__stats">
+      <div class="container hero__stats-inner">
+        <div class="hero__stat-item">
+          <span class="hero__stat-number" data-target="2025">0</span><span class="hero__stat-unit">년</span>
+          <span class="hero__stat-label">첫 서비스 개시</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat-item">
+          <span class="hero__stat-number" data-target="5000">0</span><span class="hero__stat-unit">+</span>
+          <span class="hero__stat-label">누적 이용자</span>
+        </div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat-item">
+          <span class="hero__stat-number" data-target="5">0</span><span class="hero__stat-unit">분</span>
+          <span class="hero__stat-label">평균 진행 시간</span>
+        </div>
+      </div>
+      <p class="hero__stats-note">* 2026년 4월 기준</p>
+    </div>
+  </section>
+  <!-- [HERO:END — 🔒 LOCKED v1.0] -->
+  <!-- ═══════════════════════════════════════
+       [S1.1] 실시간 상담 미리보기 (채팅 애니메이션)
+       ═══════════════════════════════════════ -->
+  <section class="chat-preview section" id="chat-preview">
+    <div class="container chat-preview__inner">
+      <div class="chat-preview__info fade-up">
+        <h2 class="chat-preview__title">카톡 한 통이면<br><span class="chat-preview__title-accent">바로 상담 시작!</span></h2>
+        <p class="chat-preview__desc">복잡한 절차 없이 카카오톡으로<br>실시간 전문 상담을 받아보세요.</p>
+        <a href="#" data-cta="kakao" target="_blank" rel="noopener" class="btn btn--kakao">
+          <i class="fas fa-comment"></i> 지금 바로 상담하기
+        </a>
+      </div>
+      <div class="chat-preview__mockup fade-up">
+        <img src="assets/hero/hero-phone-mockup.png" alt="위고페이 카톡 상담" class="chat-preview__phone-img">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       [S1.5] 앱 다운로드
+       ═══════════════════════════════════════ -->
+  <section class="app-download section" id="app-download">
+    <div class="container">
+      <div class="app-download__header fade-up">
+        <span class="app-download__badge">✦ 2025 출시 · 누적 이용자 5,000명+</span>
+        <h2 class="app-download__title">
+          위고페이 <span class="app-download__title-accent">전용 앱</span>으로 더 빠르게
+        </h2>
+        <p class="app-download__desc">
+          신용카드 한도를 활용한 간편 결제 자동 시스템.<br>
+          <strong>(주)프라임플레이</strong>가 직접 개발 · 운영하는 공식 앱입니다.
+        </p>
+      </div>
+
+      <!-- 신뢰 인디케이터 -->
+      <div class="app-download__trust fade-up">
+        <div class="app-download__trust-item">
+          <i class="fas fa-building"></i>
+          <div class="app-download__trust-text">
+            <strong>법인 직접 출시</strong>
+            <span>(주)프라임플레이</span>
+          </div>
+        </div>
+        <div class="app-download__trust-divider"></div>
+        <div class="app-download__trust-item">
+          <i class="fas fa-circle-check"></i>
+          <div class="app-download__trust-text">
+            <strong>앱스토어 정식 등록</strong>
+            <span>심사 통과 완료</span>
+          </div>
+        </div>
+        <div class="app-download__trust-divider"></div>
+        <div class="app-download__trust-item">
+          <i class="fas fa-lock"></i>
+          <div class="app-download__trust-text">
+            <strong>SSL 보안 적용</strong>
+            <span>정보 암호화 전송</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 다운로드 카드 -->
+      <div class="app-download__grid">
+        <div class="app-download__card fade-up">
+          <div class="app-download__card-icon app-download__card-icon--android">
+            <i class="fab fa-google-play"></i>
+          </div>
+          <h3 class="app-download__card-title">Android</h3>
+          <p class="app-download__card-desc">Google Play Store에서<br>위고페이 앱을 다운로드하세요.</p>
+          <div class="app-download__card-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.primeplay.primepay&pcampaignid=web_share" class="btn btn--primary btn--sm" id="cta-app-android" target="_blank" rel="noopener">
+              <i class="fas fa-download"></i> 앱 다운로드
+            </a>
+            <a href="#" class="btn btn--outline btn--sm btn--disabled" aria-disabled="true" tabindex="-1">
+              <i class="fas fa-book-open"></i> 사용 가이드 (준비중)
+            </a>
+          </div>
+        </div>
+
+        <div class="app-download__card fade-up" style="animation-delay: 0.1s">
+          <div class="app-download__card-icon app-download__card-icon--ios">
+            <i class="fab fa-apple"></i>
+          </div>
+          <h3 class="app-download__card-title">iOS</h3>
+          <p class="app-download__card-desc">App Store에서<br>위고페이 앱을 다운로드하세요.</p>
+          <div class="app-download__card-buttons">
+            <a href="https://apps.apple.com/us/app/primepay/id6757138883" class="btn btn--primary btn--sm" id="cta-app-ios" target="_blank" rel="noopener">
+              <i class="fas fa-download"></i> 앱 다운로드
+            </a>
+            <a href="#" class="btn btn--outline btn--sm btn--disabled" aria-disabled="true" tabindex="-1">
+              <i class="fas fa-book-open"></i> 사용 가이드 (준비중)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       [S2] 소개 카드 — "10초만에 알아보는 위고페이"
+       ═══════════════════════════════════════ -->
+  <section class="intro section" id="intro">
+    <div class="container intro__inner">
+      <div class="intro__text fade-up">
+        <h2 class="intro__title">10초만에 알아보는<br>위고페이</h2>
+        <p class="intro__desc">
+          복잡한 절차 없이<br>
+          카톡 한통으로 써보세요!
+        </p>
+        <a href="product.html" class="btn btn--primary btn--lg">
+          상품 상세설명 <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="intro__cards">
+        <div class="intro__card fade-up">
+          <img src="assets/cards/intro-card-speed.png" alt="5분 내 빠른 입금" class="intro__card-img">
+          <div class="intro__card-text">
+            <span class="intro__card-label">95% 이상의 승인률</span>
+            <h3 class="intro__card-title">본인 카드만 있다면?<br>신청 후 <i class="fas fa-bolt" style="color:var(--color-primary)"></i> 5분 내 입금!</h3>
+          </div>
+        </div>
+        <div class="intro__card fade-up" style="animation-delay: 0.1s">
+          <img src="assets/cards/intro-card-fee.png" alt="업계 최저 수수료" class="intro__card-img">
+          <div class="intro__card-text">
+            <span class="intro__card-label">투명한 수수료</span>
+            <h3 class="intro__card-title">업계 최저 수수료!<br>숨겨진 비용 없이 투명하게</h3>
+          </div>
+        </div>
+        <div class="intro__card fade-up" style="animation-delay: 0.2s">
+          <img src="assets/cards/intro-card-safe.png" alt="안전한 거래" class="intro__card-img">
+          <div class="intro__card-text">
+            <span class="intro__card-label">정식 PG사 등록</span>
+            <h3 class="intro__card-title">안전한 거래 보장!<br>SGI 보증보험 가입 업체</h3>
+          </div>
+        </div>
+        <div class="intro__card fade-up" style="animation-delay: 0.3s">
+          <img src="assets/cards/intro-card-24h.png" alt="24시간 상담" class="intro__card-img">
+          <div class="intro__card-text">
+            <span class="intro__card-label">서류/방문 필요 없음</span>
+            <h3 class="intro__card-title">전문 상담원이 24시간 대기!<br>카톡 한 통이면 끝!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       [S3] 실시간 진행현황
+       ═══════════════════════════════════════ -->
+  <section class="feed section section--alt" id="live-feed">
+    <div class="container feed__inner">
+      <div class="feed__table-wrap">
+        <div class="feed__date-bar">
+          <i class="fas fa-sync-alt"></i>
+          <span id="feed-date">로딩 중...</span>
+        </div>
+        <div class="feed__table-header">
+          <span class="feed__col feed__col--name">성함</span>
+          <span class="feed__col feed__col--amount">진행금액</span>
+          <span class="feed__col feed__col--status">진행상태</span>
+        </div>
+        <div class="feed__table-body" id="feed-body">
+          <!-- JS에서 site.json 데이터로 렌더링 -->
+        </div>
+      </div>
+
+      <div class="feed__info fade-up">
+        <h2 class="feed__title">실시간 거래 현황</h2>
+        <p class="feed__title-sub">고객님의 신뢰가 증명합니다</p>
+        <p class="feed__desc">
+          위고페이를 이용한 분들의<br>
+          실시간 진행현황을 확인해보세요!
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       [S4] 신뢰 인증 — "믿고 써도 될까요?"
+       ═══════════════════════════════════════ -->
+  <section class="trust section" id="trust">
+    <div class="container">
+      <h2 class="section__title fade-up">위고페이를 선택해야 하는 이유</h2>
+      <p class="section__subtitle fade-up">왜 위고페이인가요?</p>
+      <p class="trust__desc fade-up">
+        위고페이는 정식 등록된 사업체로,<br>
+        모든 절차를 합법적으로 진행합니다.
+      </p>
+      <div class="trust__grid" id="trust-grid">
+        <div class="trust__card fade-up">
+          <img src="assets/badges/badge-pg-certified.png" alt="정식 PG사 등록 업체" class="trust__card-badge">
+          <h3 class="trust__card-title">정식 PG사 등록</h3>
+          <p class="trust__card-desc">검증된 정식 결제 시스템을 통해<br>모든 거래가 안전하게 처리됩니다.</p>
+        </div>
+        <div class="trust__card fade-up">
+          <img src="assets/badges/badge-sgi-insurance.png" alt="SGI 서울보증보험 가입" class="trust__card-badge">
+          <h3 class="trust__card-title">SGI 서울보증보험</h3>
+          <p class="trust__card-desc">고객 자산 보호를 위한<br>정식 보증보험에 가입되어 있습니다.</p>
+        </div>
+        <div class="trust__card fade-up">
+          <img src="assets/badges/badge-ssl-secure.png" alt="SSL 256-bit 암호화" class="trust__card-badge">
+          <h3 class="trust__card-title">SSL 보안 인증</h3>
+          <p class="trust__card-desc">개인정보 암호화 전송으로<br>정보 유출 걱정이 없습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       [S4.5] 실제 이용후기
+       ═══════════════════════════════════════ -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <h2 class="section__title fade-up">실제 이용후기</h2>
+      <p class="section__subtitle fade-up">위고페이를 선택한 고객들의 생생한 후기</p>
+      <div class="reviews-slider" id="reviews-slider">
+        <div class="reviews-track" id="reviews-track">
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">윤</div>
+              <div><div class="review-card__name">윤*진 님</div><div class="review-card__date">2026.04.24</div></div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">다른 곳에서 다 거절당했는데 여기서 해결됐어요. 정말 감사합니다!</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">차</div>
+              <div><div class="review-card__name">차*호 님</div><div class="review-card__date">2026.04.23</div></div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">반신반의 했는데 믿을만한 업체였어요. 자주 이용할 것 같습니다.</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">박</div>
+              <div><div class="review-card__name">박*수 님</div><div class="review-card__date">2026.04.22</div></div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">새벽인데도 빠르게 처리해주셨습니다. 원하는 금액 이상으로 진행돼서 감사해요.</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">김</div>
+              <div><div class="review-card__name">김*영 님</div><div class="review-card__date">2026.04.21</div></div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">늦은 새벽인데 빠르게 원하는 조건으로 해결해주셔서 만족도 최고입니다!</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">최</div>
+              <div><div class="review-card__name">최*훈 님</div><div class="review-card__date">2026.04.20</div></div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">간편하고 진짜 빠르게 매번 처리해주셔서 여기만 이용합니다. 적극 추천!</p>
+          </div>
+          <div class="review-card">
+            <div class="review-card__header">
+              <div class="review-card__avatar">성</div>
+              <div><div class="review-card__name">성*우 님</div><div class="review-card__date">2026.04.19</div></div>
+            </div>
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">친절한 상담 응대는 여기가 최고예요. 속도도 빠르고 믿고 하셔도 됩니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       [S5] FAQ — 자주 묻는 질문
+       ═══════════════════════════════════════ -->
+  <section class="faq section section--alt" id="faq">
+    <div class="container">
+      <h2 class="section__title fade-up">자주 묻는 질문</h2>
+      <p class="section__subtitle fade-up">궁금한 점을 빠르게 확인하세요</p>
+      <div class="faq__list" id="faq-list">
+        <!-- JS에서 site.json 기반 렌더링 -->
+      </div>
+      <div class="faq__more fade-up">
+        <a href="faq.html" class="btn btn--outline">전체 FAQ 보기 <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="footer__inner container">
+      <div class="footer__info">
+        <div class="footer__logo">
+          <img src="assets/logo/wegopay-footer-logo-white.png" alt="위고페이" class="footer__logo-img">
+          <span class="footer__logo-text">WEGOPAY</span>
+        </div>
+        <div class="footer__details">
+          <p>상호: 위고페이</p>
+          <p>연락처: <a href="#" data-cta="phone" class="footer__link"><i class="fas fa-phone-alt"></i> 전화 상담</a> · <a href="#" data-cta="kakao" class="footer__link" target="_blank" rel="noopener"><i class="fas fa-comment"></i> 카카오톡</a></p>
+        </div>
+        <div class="footer__details">
+          <p>이용 수수료: 업계 최저 · 상담 시 투명하게 안내</p>
+        </div>
+      </div>
+      <div class="footer__notice">
+        <p>위고페이는 정식 PG사 등록 업체이며, SGI 서울보증보험에 가입되어 있습니다.</p>
+      </div>
+      <div class="footer__copyright">
+        <p>Copyright © 위고페이 All Rights Reserved 2026</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════
+       FLOATING BAR
+       ═══════════════════════════════════════ -->
+  <div class="floating" id="floating-bar">
+    <a href="#" data-cta="phone" class="floating__call" id="cta-float-phone">
+      <i class="fas fa-phone-alt"></i>
+      <span>전화 상담</span>
+    </a>
+    <a href="#" data-cta="kakao" class="floating__kakao" id="cta-float-kakao" target="_blank" rel="noopener">
+      <img src="assets/icons/kakao-icon.svg" alt="" class="floating__kakao-icon" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'"><i class="fas fa-comment" style="display:none"></i>
+      <span>카톡 상담</span>
+    </a>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

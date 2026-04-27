@@ -1,0 +1,131 @@
+{
+  "brand": {
+    "name": "위고페이",
+    "nameEn": "Wegopay",
+    "domain": "wegopay.kr",
+    "slogan": "편하게 말 걸어주세요, 위고페이가 해결해드릴게요!",
+    "description": "신용카드 현금화 전문 — 업계 최저 수수료 · 빠른 입금 · 365일 24시간 상담",
+    "copyright": "Copyright © 위고페이 All Rights Reserved 2026",
+    "year": 2026
+  },
+  "contact": {
+    "phone": "010-2860-7110",
+    "phoneDisplay": false,
+    "kakao": {
+      "type": "openChat",
+      "url": "https://open.kakao.com/o/sk7bC8ri",
+      "label": "카카오톡 상담",
+      "id": "wegopay"
+    },
+    "telegram": {
+      "url": "",
+      "label": "텔레그램 상담"
+    },
+    "operatingHours": "365일 24시간"
+  },
+  "app": {
+    "android": {
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.primeplay.primepay&pcampaignid=web_share",
+      "guideUrl": "",
+      "label": "Android 앱"
+    },
+    "ios": {
+      "storeUrl": "https://apps.apple.com/us/app/primepay/id6757138883",
+      "guideUrl": "",
+      "label": "iOS 앱"
+    }
+  },
+  "services": [
+    {
+      "id": "credit_card",
+      "name": "신용카드 현금화",
+      "maxAmount": "무제한",
+      "rate": "업계 최저 수수료",
+      "note": "PG사 자동 결제 시스템 — 상담 시 투명 안내"
+    }
+  ],
+  "stats": {
+    "year": 2025,
+    "users": "5,000+",
+    "avgTime": "5분"
+  },
+  "liveFeed": [
+    { "name": "서**", "amount": 1000000 },
+    { "name": "김**", "amount": 10000000 },
+    { "name": "한**", "amount": 3000000 },
+    { "name": "박**", "amount": 8000000 },
+    { "name": "김**", "amount": 3800000 },
+    { "name": "이**", "amount": 2500000 },
+    { "name": "박**", "amount": 5500000 },
+    { "name": "최**", "amount": 4100000 },
+    { "name": "정**", "amount": 1800000 },
+    { "name": "한**", "amount": 12000000 },
+    { "name": "오**", "amount": 2200000 },
+    { "name": "장**", "amount": 950000 },
+    { "name": "강**", "amount": 1200000 },
+    { "name": "윤**", "amount": 2900000 },
+    { "name": "임**", "amount": 1500000 },
+    { "name": "조**", "amount": 5500000 },
+    { "name": "배**", "amount": 1800000 },
+    { "name": "류**", "amount": 7200000 },
+    { "name": "송**", "amount": 3400000 },
+    { "name": "노**", "amount": 4800000 }
+  ],
+  "faq": [
+    {
+      "q": "신용카드만 있으면 누구나 이용할 수 있나요?",
+      "a": "네, 본인 명의의 신용카드에 결제 가능한 한도가 있다면 누구든 이용 가능합니다. 별도의 신용 조회나 서류 제출 없이 간편하게 진행됩니다."
+    },
+    {
+      "q": "신용점수에 영향이 있나요?",
+      "a": "아닙니다. 저희 서비스는 카드론이나 현금서비스와 전혀 다릅니다. 신용등급 조회 자체를 하지 않기 때문에 신용점수에 아무런 영향이 없습니다."
+    },
+    {
+      "q": "입금까지 정말 5분밖에 안 걸리나요?",
+      "a": "네, 본인 확인이 완료된 후 평균 5분 이내로 입금이 완료됩니다. 은행 점검 시간이나 주말에도 가능한 한 빠르게 처리해 드립니다."
+    },
+    {
+      "q": "어떤 개인정보를 요구하나요?",
+      "a": "본인 확인을 위한 최소한의 정보만 필요합니다. 불필요한 개인정보는 일체 요구하지 않으며, 모든 정보는 상담 완료 후 즉시 파기됩니다."
+    },
+    {
+      "q": "수수료는 얼마인가요?",
+      "a": "업계 최저 수준의 수수료를 적용하고 있습니다. 정확한 수수료율은 이용 금액에 따라 달라지므로, 상담 시 투명하게 안내해 드립니다. 숨겨진 추가 비용은 없습니다."
+    },
+    {
+      "q": "어떤 카드사든 이용 가능한가요?",
+      "a": "네, 국내 전 카드사(삼성, 현대, 신한, KB, 롯데, 하나, 우리, BC, NH 등) 모두 이용 가능합니다."
+    },
+    {
+      "q": "할부 결제도 가능한가요?",
+      "a": "네, 카드사 정책에 따라 2~12개월 할부 결제가 가능합니다. 상담 시 원하시는 할부 개월 수를 말씀해 주시면 안내해 드립니다."
+    },
+    {
+      "q": "주말이나 공휴일에도 이용할 수 있나요?",
+      "a": "물론입니다. 365일 24시간 상담 및 처리가 가능합니다. 심야 시간이나 명절에도 정상 운영합니다."
+    }
+  ],
+  "seo": {
+    "title": "위고페이 - 신용카드 현금화 | 업계 최저 수수료 | 24시간 상담",
+    "description": "위고페이 - 신용카드 현금화 전문. 업계 최저 수수료, 빠른 입금, 365일 24시간 상담. 정식 등록 업체로 안전하게 이용하세요.",
+    "keywords": "위고페이,신용카드현금화,카드현금화,신용카드한도대출,카드깡,현금화서비스,업계최저수수료,빠른입금,24시간상담"
+  },
+  "design": {
+    "tone": "심플 세련 미니멀 + 파스텔 하늘색 (맑고 하늘하늘)",
+    "primaryColor": "#4DA3FF",
+    "secondaryColor": "#8CC6FF",
+    "accentColor": "#0F1F3D",
+    "backgroundColor": "#EAF4FF",
+    "surfaceColor": "#FFFFFF",
+    "textColor": "#0F1F3D",
+    "textLightColor": "#64748B",
+    "successColor": "#34D399",
+    "fontFamily": "Pretendard, 'Noto Sans KR', sans-serif"
+  },
+  "company": {
+    "name": "위고페이",
+    "feeNotice": "이용 수수료: 업계 최저 · 상담 시 투명하게 안내",
+    "legalNotice": "위고페이는 정식 PG사 등록 업체이며, SGI 서울보증보험에 가입되어 있습니다."
+  },
+  "disclaimer": "본 사이트는 결제 대행 정보 제공 서비스이며, 실제 금융 기관이 아닙니다."
+}
