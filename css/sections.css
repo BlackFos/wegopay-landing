@@ -87,7 +87,8 @@
   .hero__title{font-size:var(--fs-3xl)}
   .hero__title-img{max-width:280px;margin:0 auto 8px}
   .hero__subtitle{font-size:var(--fs-base)}
-  .hero__cta-group{justify-content:center}
+  .hero__cta-group{justify-content:center;flex-direction:column;align-items:center;gap:12px}
+  .hero__cta-group .btn{width:100%;max-width:280px;justify-content:center}
   .hero__visual{order:-1;min-height:auto;flex-direction:column}
   .hero__visual-main{max-width:300px;width:80%}
   .hero__visual-phone{display:none}
@@ -100,6 +101,16 @@
   .chat-preview__inner{grid-template-columns:1fr}
   .chat-preview__info{text-align:center}
   .chat-preview__phone-img{max-width:260px}
+
+  /* M5: 섹션 패딩 모바일 축소 */
+  .section{padding:48px 0}
+
+  /* M6: 컨테이너 안전 여백 */
+  .container{padding:0 16px}
+
+  /* M3: 플로팅 바 하단 보정 */
+  body{padding-bottom:var(--floating-bar-h)}
+  .floating__call,.floating__kakao{padding:12px;font-size:var(--fs-xs)}
 }
 
 
